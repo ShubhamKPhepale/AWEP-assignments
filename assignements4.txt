@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="
+        height: 100vh;
+        background: red;
+        display: flex;
+        flex-direction: column;
+        
+      ">
+        <div style="background: rgb(250, 250, 65); 
+        flex: 1; display: flex;
+        justify-content: center;
+        align-items: center;">Headers can be included here</div>
+
+        <div style="background: rgb(0, 255, 179); flex: 12; display: flex;">
+            <div style="background: rgb(212, 43, 13); flex: 1;
+             display: flex;
+        justify-content: center;
+        align-items: center;">Left Side</div>
+            <div style="background: rgb(49, 49, 70); flex: 6;
+             display: flex;
+        justify-content: center;
+        align-items: center;">Center</div>
+            <div style="background: rgb(199, 46, 79); flex: 1;
+             display: flex;
+        justify-content: center;
+        align-items: center;">Right Side</div>
+        </div>
+
+        <div style="background: rgb(255, 230, 2); flex: 1;
+         display: flex;
+        justify-content: center;
+        align-items: center;">Footers can be seen here
+        </div>
+    </div>
+</body>
+
+</html>

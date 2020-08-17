@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        .myclass {
+            height: 100vh;
+            background-image: url("./1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .myclass1 {
+            height: 100vh;
+            background-image: url("hell.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myclass1" style="  display:flex; flex-direction: column; width:100vw; height:100vh; ">
+        <div style=" flex:1; display:flex; justify-content:space-between; ">
+            <div style="flex:1; font-size:2rem; font-weight:bold; padding:10px; color:rgb(117, 79, 79);"> Hell is where
+                i
+                dwell</div>
+            <div
+                style="flex:1; font-size:2rem; font-weight:bold; padding:20px; display:flex; justify-content:flex-end; align-items:right ; color:rgb(117, 79, 79);">
+                God's domian is useless in front of me
+            </div>
+        </div>
+
+        <div class="myclass"
+            style=" flex:9; display:flex; flex-direction:column; justify-content: center; align-items:center; ">
+            <div style="display:flex; font-size:4rem; font-weight:bold;color:red; ">EVIL </div>
+            <div style="display:flex; font-size:4rem; font-weight:bold;color:red; ">callmeDAD</div>
+            <div style="display:flex; font-size:4rem; font-weight:bold; "></div>
+
+        </div>
+
+        <div style=" flex:1; display:flex; justify-content:space-between; ">
+            <div style="flex:1; font-size:2rem; font-weight:bold; padding:10px; color:greenyellow;"> Evil resides
+                where i live</div>
+            <div
+                style="flex:1; font-size:2rem; font-weight:bold; padding:20px; display:flex; justify-content:flex-end; align-items:right; color:greenyellow">
+                justice is what i say</div>
+
+        </div>
+
+    </div>
+
+    <div>
+
+    </div>
+
+
+</body>
+
+</html>

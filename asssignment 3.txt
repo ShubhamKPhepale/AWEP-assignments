@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function setWidthHeight() {
+            var min = window.innerWidth;
+            if (window.innerHeight < min)
+                min = window.innerHeight;
+            document.getElementById("mydiv").style.height = min + "px";
+            document.getElementById("mydiv").style.width = min + "px";
+
+        }
+        window.addEventListener("resize", setWidthHeight);
+        window.addEventListener("onload", setWidthHeight);
+    </script>
+
+    <style>
+        .chessboard {
+            width: 660px;
+            height: 660px;
+            margin: 20px;
+            border: 11px solid rgb(73, 60, 60);
+        }
+
+        .white {
+            height: 80px;
+            width: 80px;
+            background: rgb(243, 235, 235);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+
+        .black {
+            height: 80px;
+            width: 80px;
+            background: rgb(216, 62, 62);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+
+        .bordr {
+            height: 80px;
+            width: 20px;
+            background: rgb(168, 105, 105);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+
+        }
+
+        .bordr1 {
+            height: 20px;
+            width: 90px;
+            background: rgb(185, 141, 141);
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 1rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chessboard">
+
+
+
+        <div style="display:flex;">
+            <div class="bordr">8</div>
+            <div class="white">&#9820;</div>
+            <div class="black">&#9822;</div>
+            <div class="white">&#9821;</div>
+            <div class="black">&#9819;</div>
+            <div class="white">&#9818;</div>
+            <div class="black">&#9821;</div>
+            <div class="white">&#9822;</div>
+            <div class="black">&#9820;</div>
+        </div>
+
+        <div style="display:flex;">
+            <div class="bordr">7</div>
+            <div class="black">&#9821;</div>
+            <div class="white">&#9821;</div>
+            <div class="black">&#9821;</div>
+            <div class="white">&#9821;</div>
+            <div class="black">&#9821;</div>
+            <div class="white">&#9821;</div>
+            <div class="black">&#9821;</div>
+            <div class="white">&#9821;</div>
+        </div>
+
+        <div style="display:flex;">
+            <div class="bordr">6</div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+
+        <div style="display:flex;">
+            <div class="bordr">5</div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+
+        <div style="display:flex;">
+            <div class="bordr">4</div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+        </div>
+
+        <div style="display:flex;">
+            <div class="bordr">3</div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+
+        <div style="display:flex;">
+            <div class="bordr">2</div>
+            <div class="white">&#9817;</div>
+            <div class="black">&#9817;</div>
+            <div class="white">&#9817;</div>
+            <div class="black">&#9817;</div>
+            <div class="white">&#9817;</div>
+            <div class="black">&#9817;</div>
+            <div class="white">&#9817;</div>
+            <div class="black">&#9817;</div>
+        </div>
+
+        <div style="display:flex;">
+
+            <div class="bordr">1</div>
+            <div class="black">&#9814;</div>
+            <div class="white">&#9816;</div>
+            <div class="black">&#9815;</div>
+            <div class="white">&#9813;</div>
+            <div class="black">&#9812;</div>
+            <div class="white">&#9815;</div>
+            <div class="black">&#9816;</div>
+            <div class="white">&#9814;</div>
+        </div>
+
+        <div style="display:flex;">
+            <div style=" background:rgb(168, 105, 105); width:20px; height:20px; "></div>
+            <div class="bordr1">a</div>
+            <div class="bordr1">b</div>
+            <div class="bordr1">c</div>
+            <div class="bordr1">d</div>
+            <div class="bordr1">e</div>
+            <div class="bordr1">f</div>
+            <div class="bordr1">g</div>
+            <div class="bordr1">h</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
